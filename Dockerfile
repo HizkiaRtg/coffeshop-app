@@ -1,4 +1,3 @@
-# Stage 1: Setup Flutter, build web and APK
 FROM --platform=linux/amd64 ubuntu:22.04 AS build
 
 # Prevent interactive prompts
