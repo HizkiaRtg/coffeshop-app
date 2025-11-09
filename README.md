@@ -1,16 +1,12 @@
 # coffeeshop_app
 
-A new Flutter project.
+Jalankan image dengan arsitektur emulasi (paling cepat)
 
-## Getting Started
+Gunakan opsi --platform saat pull/run:
 
-This project is a starting point for a Flutter application.
+docker run --platform linux/amd64 -p 8080:80 ghcr.io/hizkiartg/coffeshop-app:6e556769dcf27b6d73e976237820157d6c8239d8
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Atau kalau mau pull dulu:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+docker pull --platform linux/amd64 ghcr.io/hizkiartg/coffeshop-app:6e556769dcf27b6d73e976237820157d6c8239d8
